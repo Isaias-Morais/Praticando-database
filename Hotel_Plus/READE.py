@@ -13,3 +13,5 @@ usuarios = curso.fetchall()
 
 for user in usuarios :
     print(user)
+
+conn.close()
